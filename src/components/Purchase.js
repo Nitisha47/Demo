@@ -14,14 +14,14 @@ const Purchase = () => {
     height: 55,
     width:'45%',
     padding: '0 30px',
-  });
+    });
   return (
     <Parallax className='parallax' strength={800}>
       <div className='purchase'>
         <div className='purchase-left'>
           <h3>Turn Your Cursor Into A Colorful Magic <br/> Wand & Charm Your Visitors</h3>
           <p>Motion Art for Elementor is a groundbreaking plugin that empowers you to effortlessly infuse <br />your website with visually stunning motion art elements.</p>
-          <PurchaseButton>Purchase from evanto</PurchaseButton>
+          <PurchaseButton className='pbutton'>Purchase from evanto</PurchaseButton>
         </div>
         <div className='purchase-right'>
           <img src={magic} alt='' />

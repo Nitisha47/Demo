@@ -28,7 +28,7 @@ const Navbar = () => {
       <div className="nav-logo-container">
         <img src={logo} alt="" />
       </div>
-      <TopButton>Purchase</TopButton> 
+      <TopButton className='top-button'>Purchase</TopButton> 
     </nav>
   )
 }
